@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./Style/appx.css">
+    <script src="appx.js"></script>
+</head>
+<body>
+    <div id="search-bar">
+        <a id="close" href="#" onclick="closed()"><img src="./Style/Images/Close/2.png" height="16px" width="16px"></a>
+        <a id="maximize" href="#" onclick="maximize()"><img src="./Style/Images/Maximize/2.png" height="16px" width="16px"></a>
+        <a id="minimize" href="#" onclick="minimize()"><img src="./Style/Images/Minimize/2.png" height="16px" width="16px"></a>
+        <div id="spacer"></div>
+    </div>
+    <div id="nav">
+        <a id="main-page" onclick="tabSelector('backup.html', 'mainimg')"><img id="mainimg" src="./Style/Images/Navbar/logo.png" height="32" width="32"></a>
+        <div id="oriz-spacer"></div>
+        <a id="browse" onclick="tabSelector('browse.html', 'brow')"><img id="brow" src="./Style/Images/Navbar/logo.png" height="32" width="32"></a>
+        <div id="oriz-spacer"></div>
+        <a id="radio" onclick="tabSelector('radio.html', 'rad')"><img id="rad" src="./Style/Images/Navbar/logo.png" height="32" width="32"></a>
+        <div id="oriz-spacer"></div>
+        <a id="library" onclick="tabSelector('library.html', 'lib')"><img id="lib" src="./Style/Images/Navbar/logo.png" height="32" width="32"></a>
+        <div id="oriz-spacer"></div>
+    </div>
+    <div id="main">
+        <iframe id="main-content" src="splash.html"></iframe>
+    </div>
+</body>
+</html>
