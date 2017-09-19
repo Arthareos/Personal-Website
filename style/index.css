@@ -1,16 +1,16 @@
 @font-face {
   font-family: title;
-  src: url("./Fonts/titles.ttf");
+  src: url("./fonts/titles.ttf");
 }
 
 @font-face {
   font-family: text;
-  src: url("./Fonts/text.ttf");
+  src: url("./fonts/text.ttf");
 }
 
 @font-face {
   font-family: subtext;
-  src: url("./Fonts/subtext.otf");
+  src: url("./fonts/subtext.otf");
 }
 
 /* line 18, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
