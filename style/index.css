@@ -166,11 +166,10 @@ div#search-bar #spacer {
   border: 0px;
   width: 100%;
   height: 100%;
-  height: calc(100% - 48px);
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/* line 152, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
+/* line 151, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 body {
   z-index: 1;
   position: relative;
@@ -181,7 +180,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/* line 162, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
+/* line 161, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 html {
   z-index: 0;
   height: 100%;
