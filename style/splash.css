@@ -38,10 +38,12 @@ h1 {
   max-width: 1200px;
   min-width: 900px;
   margin: auto;
+  margin-bottom: 25px;
+  height: 1920px;
   background-color: white;
 }
 
-/* line 43, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
+/* line 45, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 h2 {
   padding-left: 75px;
   padding-top: 50px;
@@ -51,18 +53,19 @@ h2 {
   margin: 0px;
 }
 
-/* line 52, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
+/* line 54, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 p {
-  padding: 0px 50px 25px 50px;
+  padding: 0px 50px 0px 50px;
   font-family: subtext;
   margin: 0px;
   font-size: 16px;
   color: black;
 }
 
-/* line 60, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
+/* line 62, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 body {
   margin: 0px;
+  height: 100%;
 }
 
 /*# sourceMappingURL=../splash.map */

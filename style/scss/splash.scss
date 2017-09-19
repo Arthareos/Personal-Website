@@ -37,6 +37,8 @@ h1 {
     max-width: 1200px;
     min-width: 900px;
     margin: auto;
+    margin-bottom: 25px;
+    height: 1920px;
     background-color: white;
 }
 
@@ -50,7 +52,7 @@ h2 {
 }
 
 p {
-    padding: 0px 50px 25px 50px;
+    padding: 0px 50px 0px 50px;
     font-family: subtext;
     margin: 0px;
     font-size: 16px;
@@ -59,4 +61,5 @@ p {
 
 body {
     margin: 0px;
+    height: 100%;
 }
