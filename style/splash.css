@@ -26,7 +26,7 @@
 h1 {
   text-align: center;
   font-family: text;
-  color: #7c7c7c;
+  color: #aaaaaa;
   font-size: 48px;
   margin-top: 0px;
   margin-bottom: 50px;
@@ -40,9 +40,10 @@ h1 {
   margin: auto;
   margin-bottom: 50px;
   background-color: white;
+  box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
 }
 
-/* line 44, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
+/* line 45, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 h2 {
   padding-left: 75px;
   padding-top: 50px;
@@ -52,16 +53,16 @@ h2 {
   margin: 0px;
 }
 
-/* line 53, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
+/* line 54, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 p {
-  padding: 0px 50px 25px 50px;
+  padding: 0px 50px 50px 50px;
   font-family: subtext;
   margin: 0px;
   font-size: 16px;
   color: black;
 }
 
-/* line 61, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
+/* line 62, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 body {
   margin: 0px;
   height: 100%;
