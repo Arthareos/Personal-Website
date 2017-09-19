@@ -13,7 +13,7 @@
   src: url("./Fonts/subtext.ttf");
 }
 
-/* line 18, C:/Dev/WEB/Portfoliu/src/style/scss/splash.scss */
+/* line 18, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 #propic {
   width: 256px;
   height: 256px;
@@ -22,7 +22,7 @@
   margin-bottom: 50px;
 }
 
-/* line 26, C:/Dev/WEB/Portfoliu/src/style/scss/splash.scss */
+/* line 26, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 h1 {
   text-align: center;
   font-family: text;
@@ -33,7 +33,7 @@ h1 {
   font-weight: bold;
 }
 
-/* line 36, C:/Dev/WEB/Portfoliu/src/style/scss/splash.scss */
+/* line 36, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 #main_data {
   max-width: 1200px;
   min-width: 900px;
@@ -41,7 +41,7 @@ h1 {
   background-color: white;
 }
 
-/* line 43, C:/Dev/WEB/Portfoliu/src/style/scss/splash.scss */
+/* line 43, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 h2 {
   padding-left: 75px;
   padding-top: 50px;
@@ -51,7 +51,7 @@ h2 {
   margin: 0px;
 }
 
-/* line 52, C:/Dev/WEB/Portfoliu/src/style/scss/splash.scss */
+/* line 52, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 p {
   padding: 0px 50px 25px 50px;
   font-family: subtext;
@@ -60,7 +60,7 @@ p {
   color: black;
 }
 
-/* line 60, C:/Dev/WEB/Portfoliu/src/style/scss/splash.scss */
+/* line 60, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 body {
   margin: 0px;
 }

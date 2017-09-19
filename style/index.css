@@ -13,7 +13,7 @@
   src: url("./Fonts/subtext.otf");
 }
 
-/* line 18, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 18, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 h1 {
   font-family: title;
   color: white;
@@ -21,7 +21,7 @@ h1 {
   margin: 0px;
 }
 
-/* line 25, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 25, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 p {
   font-family: text;
   color: white;
@@ -30,7 +30,7 @@ p {
   font-size: 20px;
 }
 
-/* line 31, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 31, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 p #nav-imp {
   font-family: title;
   color: white;
@@ -39,7 +39,7 @@ p #nav-imp {
   font-size: 20px;
 }
 
-/* line 40, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 40, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 p1 {
   font-family: text;
   color: white;
@@ -48,7 +48,7 @@ p1 {
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/* line 49, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 49, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 div#search-bar {
   width: calc(100% - 82px);
   padding-left: 82px;
@@ -58,7 +58,7 @@ div#search-bar {
   -webkit-app-region: drag;
 }
 
-/* line 56, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 56, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 div#search-bar #minimize {
   margin: 16px 8px 12px 16px;
   float: right;
@@ -66,7 +66,7 @@ div#search-bar #minimize {
   -webkit-app-region: no-drag;
 }
 
-/* line 62, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 62, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 div#search-bar #maximize {
   margin: 16px 8px 12px 8px;
   float: right;
@@ -74,7 +74,7 @@ div#search-bar #maximize {
   -webkit-app-region: no-drag;
 }
 
-/* line 68, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 68, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 div#search-bar #close {
   margin: 16px 16px 12px 8px;
   float: right;
@@ -82,7 +82,7 @@ div#search-bar #close {
   -webkit-app-region: no-drag;
 }
 
-/* line 74, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 74, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 div#search-bar #spacer {
   float: right;
   height: 30px;
@@ -93,7 +93,7 @@ div#search-bar #spacer {
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/* line 87, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 87, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 #nav {
   height: 100%;
   width: 82px;
@@ -102,7 +102,7 @@ div#search-bar #spacer {
   position: fixed;
 }
 
-/* line 93, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 93, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 #nav #main-page {
   margin: 25px 25px 21px 25px;
   float: left;
@@ -110,7 +110,7 @@ div#search-bar #spacer {
   -webkit-app-region: no-drag;
 }
 
-/* line 99, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 99, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 #nav #browse {
   margin: 25px 25px 21px 25px;
   float: left;
@@ -118,7 +118,7 @@ div#search-bar #spacer {
   -webkit-app-region: no-drag;
 }
 
-/* line 105, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 105, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 #nav #radio {
   margin: 25px 25px 21px 25px;
   float: left;
@@ -126,7 +126,7 @@ div#search-bar #spacer {
   -webkit-app-region: no-drag;
 }
 
-/* line 111, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 111, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 #nav #library {
   margin: 25px 25px 21px 25px;
   float: left;
@@ -134,7 +134,7 @@ div#search-bar #spacer {
   -webkit-app-region: no-drag;
 }
 
-/* line 117, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 117, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 #nav #oriz-spacer {
   width: 58px;
   height: 1px;
@@ -150,7 +150,7 @@ div#search-bar #spacer {
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/* line 134, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 134, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 #main {
   height: 100%;
   width: 100%;
@@ -161,7 +161,7 @@ div#search-bar #spacer {
   padding-right: 82px;
 }
 
-/* line 142, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 142, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 #main #main-content {
   border: 0px;
   margin-top: 48px;
@@ -170,7 +170,7 @@ div#search-bar #spacer {
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/* line 152, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 152, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 body {
   z-index: 1;
   position: relative;
@@ -181,11 +181,11 @@ body {
   background-repeat: no-repeat;
 }
 
-/* line 162, C:/Dev/WEB/Portfoliu/src/style/scss/appx.scss */
+/* line 162, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 html {
   z-index: 0;
   height: 100%;
   width: 100%;
 }
 
-/*# sourceMappingURL=../appx.map */
+/*# sourceMappingURL=../index.map */
