@@ -100,9 +100,10 @@ div#search-bar #spacer {
   background-color: #222326;
   z-index: 98;
   position: fixed;
+  box-shadow: inset -5px 0px 40px 0px rgba(0, 0, 0, 0.75);
 }
 
-/* line 93, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
+/* line 94, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 #nav #main-page {
   margin: 25px 25px 21px 25px;
   float: left;
@@ -110,7 +111,7 @@ div#search-bar #spacer {
   -webkit-app-region: no-drag;
 }
 
-/* line 99, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
+/* line 100, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 #nav #browse {
   margin: 25px 25px 21px 25px;
   float: left;
@@ -118,7 +119,7 @@ div#search-bar #spacer {
   -webkit-app-region: no-drag;
 }
 
-/* line 105, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
+/* line 106, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 #nav #radio {
   margin: 25px 25px 21px 25px;
   float: left;
@@ -126,7 +127,7 @@ div#search-bar #spacer {
   -webkit-app-region: no-drag;
 }
 
-/* line 111, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
+/* line 112, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 #nav #library {
   margin: 25px 25px 21px 25px;
   float: left;
@@ -134,7 +135,7 @@ div#search-bar #spacer {
   -webkit-app-region: no-drag;
 }
 
-/* line 117, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
+/* line 118, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 #nav #oriz-spacer {
   width: 58px;
   height: 1px;
@@ -150,7 +151,7 @@ div#search-bar #spacer {
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/* line 134, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
+/* line 135, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 #main {
   height: 100%;
   width: 100%;
@@ -161,7 +162,7 @@ div#search-bar #spacer {
   padding-right: 82px;
 }
 
-/* line 142, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
+/* line 143, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 #main #main-content {
   border: 0px;
   width: 100%;
@@ -169,7 +170,7 @@ div#search-bar #spacer {
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/* line 151, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
+/* line 152, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 body {
   z-index: 1;
   position: relative;
@@ -180,7 +181,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/* line 161, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
+/* line 162, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/index.scss */
 html {
   z-index: 0;
   height: 100%;
