@@ -1,0 +1,65 @@
+@font-face {
+    font-family: title;
+    src: url("./fonts/titles.ttf");
+}
+  
+  
+@font-face {
+    font-family: text;
+    src: url("./fonts/text.ttf");
+}
+  
+  
+@font-face {
+    font-family: subtext;
+    src: url("./fonts/subtext.ttf");
+}
+
+h1 {
+    font-family: title;
+    color: white;
+    font-size: 64px;
+    margin: 0px;
+    padding-top: 200px;
+}
+  
+p {
+    font-family: text;
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 2spx;
+    font-size: 20px;
+}
+
+.filterDiv {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+}
+  
+.show {
+    display: block;
+}
+  
+.container {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+body {
+    margin: 0px;
+    padding-left: 75px;
+    background-image: linear-gradient(#feb47b, #ff7e5f);
+    background-repeat: no-repeat;
+}
+
+html {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}

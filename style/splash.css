@@ -13,7 +13,6 @@
   src: url("./fonts/subtext.ttf");
 }
 
-/* line 18, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 #propic {
   width: 256px;
   height: 256px;
@@ -22,7 +21,6 @@
   margin-bottom: 50px;
 }
 
-/* line 26, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 h1 {
   text-align: center;
   font-family: text;
@@ -33,7 +31,6 @@ h1 {
   font-weight: bold;
 }
 
-/* line 36, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 #main_data {
   max-width: 1200px;
   min-width: 900px;
@@ -43,7 +40,6 @@ h1 {
   box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.75);
 }
 
-/* line 45, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 h2 {
   padding-left: 75px;
   padding-top: 50px;
@@ -53,7 +49,6 @@ h2 {
   margin: 0px;
 }
 
-/* line 54, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 p {
   padding: 0px 50px 50px 50px;
   font-family: subtext;
@@ -62,10 +57,7 @@ p {
   color: black;
 }
 
-/* line 62, C:/Dev/WEB/Personal-Website/Personal-Website/style/scss/splash.scss */
 body {
   margin: 0px;
   height: 100%;
 }
-
-/*# sourceMappingURL=../splash.map */
