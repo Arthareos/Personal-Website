@@ -33,8 +33,6 @@ p {
   float: left;
   background-color: #2196F3;
   color: #ffffff;
-  width: 100px;
-  line-height: 100px;
   text-align: center;
   margin: 2px;
   display: none;
@@ -49,9 +47,58 @@ p {
   overflow: hidden;
 }
 
+#main-data {
+  padding-left: 150px;
+}
+
+#nav {
+  height: 100%;
+  width: 82px;
+  background-color: #222326;
+  z-index: 98;
+  position: fixed;
+  box-shadow: inset -5px 0px 40px 0px rgba(0, 0, 0, 0.75);
+}
+
+#nav #main-page {
+  margin: 25px 25px 21px 25px;
+  float: left;
+  box-sizing: border-box;
+}
+
+#nav #browse {
+  margin: 25px 25px 21px 25px;
+  float: left;
+  box-sizing: border-box;
+}
+
+#nav #radio {
+  margin: 25px 25px 21px 25px;
+  float: left;
+  box-sizing: border-box;
+}
+
+#nav #library {
+  margin: 25px 25px 21px 25px;
+  float: left;
+  box-sizing: border-box;
+}
+
+#nav #oriz-spacer {
+  width: 58px;
+  height: 1px;
+  background-color: #808080;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 12px;
+  margin-right: 12px;
+  float: left;
+  box-sizing: border-box;
+  opacity: 0.5;
+}
+
 body {
   margin: 0px;
-  padding-left: 75px;
   background-image: linear-gradient(#feb47b, #ff7e5f);
   background-repeat: no-repeat;
 }

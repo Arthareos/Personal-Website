@@ -3,21 +3,33 @@
 <head>
     <title>Projects</title>
     <link rel="stylesheet" href="./style/projects.css">
-    <script src="index.js"></script>
+    <script src="projects.js"></script>
     <script src="jquery-3.2.1.min.js"></script>
 </head>
 <body>
-    <h1>Projects</h1>
-    <p>These are some of my personal projects, most of them are made to showcase different styles of interfaces and design choises.</p>
-    <input id="all" type="radio" name="category" checked> All
-    <input id="web" type="radio" name="category"> Web
-    <input id="c++" type="radio" name="category"> C++
-    <input id="electron" type="radio" name="category"> Electron
-    <div class="container">
-        <div class="filterDiv web">Personal Website</div>
-        <div class="filterDiv electron">Music</div>
-        <div class="filterDiv web">Rome</div>
-        <div class="filterDiv all">Microprocessors</div>
+    <div id="nav">
+            <a id="main-page" href="index.html"><img id="mainimg" src="./style/images/Navbar/logo.png" height="32" width="32"></a>
+            <div id="oriz-spacer"></div>
+            <a id="browse" href="projects.html"><img id="brow" src="./style/images/Navbar/logo.png" height="32" width="32"></a>
+            <div id="oriz-spacer"></div>
+        <a id="radio" onclick="tabSelector('radio.html', 'rad')"><img id="rad" src="./style/images/Navbar/logo.png" height="32" width="32"></a>
+        <div id="oriz-spacer"></div>
+        <a id="library" onclick="tabSelector('library.html', 'lib')"><img id="lib" src="./style/images/Navbar/logo.png" height="32" width="32"></a>
+        <div id="oriz-spacer"></div>
+    </div>
+    <div id="main-data">
+        <h1>Projects</h1>
+        <p>These are some of my personal projects, most of them are made to showcase different styles of interfaces and design choises.</p>
+        <input id="all" onload="filterSelection('all')" onclick="filterSelection('all')" type="radio" name="category" checked="checked"> All
+        <input id="web" onclick="filterSelection('web')" type="radio" name="category"> Web
+        <input id="c++" onclick="filterSelection('c++')" type="radio" name="category"> C++
+        <input id="electron" onclick="filterSelection('electron')" type="radio" name="category"> Electron
+        <div class="container">
+            <div class="filterDiv all web">Personal Website</div>
+            <div class="filterDiv all electron">Music</div>
+            <div class="filterDiv all web">Rome</div>
+            <div class="filterDiv all web">Microprocessors</div>
+        </div>
     </div>
 </body>
 </html>
