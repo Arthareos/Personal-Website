@@ -149,17 +149,17 @@ p {
       float: left;
       box-sizing: border-box;
     }
-    #browse {
+    #projects {
       margin: 25px 25px 21px 25px;
       float: left;
       box-sizing: border-box;
     }
-    #radio {
+    #resume {
       margin: 25px 25px 21px 25px;
       float: left;
       box-sizing: border-box;
     }
-    #library {
+    #github {
       margin: 25px 25px 21px 25px;
       float: left;
       box-sizing: border-box;
@@ -180,7 +180,7 @@ p {
 
 body {
     margin: 0px;
-    background-image: linear-gradient(#feb47b, #ff7e5f);
+    background-image: linear-gradient(to bottom, #43c6ac, #191654);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
