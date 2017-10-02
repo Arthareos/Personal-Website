@@ -33,11 +33,19 @@ p {
 
 .filterDiv {
     float: left;
-    background-color: #2196F3;
+    background-color: #ffffff;
     color: #ffffff;
     text-align: center;
     margin: 2px;
     display: none;
+    width: 450px;
+    height: 300px;
+    margin: 0px 20px 20px 0px;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
 }
   
 .show {
@@ -47,10 +55,86 @@ p {
 .container {
     margin-top: 20px;
     overflow: hidden;
+    padding: 10px;
+    #one {
+        #one-title {
+            margin-top: 236px;
+            padding: 14px 0px 0px 14px;
+            height: 64px;
+            h2 {
+                font-family: subtext;
+                float: left;
+                font-size: 30px;
+                margin: 0px;
+            }
+        }
+    }
+    #two {
+        #two-title {
+            margin-top: 236px;
+            padding: 14px 0px 0px 14px;
+            height: 64px;
+            h2 {
+                font-family: subtext;
+                float: left;
+                font-size: 30px;
+                margin: 0px;
+            }
+        }
+    }
+    #three {
+        background-image: url("./images/rome-thumb.png");
+        // background-attachment: fixed;
+        background-size: 100% 100%;
+        #three-title {
+            margin-top: 236px;
+            padding: 14px 0px 0px 14px;
+            height: 64px;
+            h2 {
+                font-family: subtext;
+                float: left;
+                font-size: 30px;
+                margin: 0px;
+            }
+        }
+    }
+    #four {
+        #four-title {
+            margin-top: 236px;
+            padding: 14px 0px 0px 14px;
+            height: 64px;
+            h2 {
+                font-family: subtext;
+                float: left;
+                font-size: 30px;
+                margin: 0px;
+            }
+        }
+    }
+    .title {
+        background-color: rgba(0, 0, 0, 0.25);
+        padding-bottom: 14px;
+        padding-top: 14px;
+        height: 30px;
+    }
 }
 
 #main-data {
     padding-left: 150px;
+    #select {
+        p {
+            margin-top: 50px;
+            font-size: 30px;
+        }
+    }
+    
+    #checkbox {
+        label {
+            font-family: text;
+            font-size: 18px;
+            color: white;
+        }
+    }
 }
 
 #nav {
@@ -98,6 +182,7 @@ body {
     margin: 0px;
     background-image: linear-gradient(#feb47b, #ff7e5f);
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 html {

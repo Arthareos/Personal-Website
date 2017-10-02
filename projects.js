@@ -1,6 +1,7 @@
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
+  document.getElementById("select").style.display = " none";
   x = document.getElementsByClassName("filterDiv");
   if (c == "all") c = "";
   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
@@ -34,5 +35,3 @@ function w3RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
-
-filterSelection("all")

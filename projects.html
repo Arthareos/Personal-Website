@@ -20,15 +20,40 @@
     <div id="main-data">
         <h1>Projects</h1>
         <p>These are some of my personal projects, most of them are made to showcase different styles of interfaces and design choises.</p>
-        <input id="all" onload="filterSelection('all')" onclick="filterSelection('all')" type="radio" name="category" checked="checked"> All
-        <input id="web" onclick="filterSelection('web')" type="radio" name="category"> Web
-        <input id="c++" onclick="filterSelection('c++')" type="radio" name="category"> C++
-        <input id="electron" onclick="filterSelection('electron')" type="radio" name="category"> Electron
+        <div id="checkbox">
+            <input id="all" onload="filterSelection('all')" onclick="filterSelection('all')" type="radio" name="category" checked="checked"/>
+            <label for="all">All</label>
+            <input id="web" onclick="filterSelection('web')" type="radio" name="category"/>
+            <label for="web">Web</label>
+            <input id="c++" onclick="filterSelection('c++')" type="radio" name="category"/>
+            <label for="c++">C++</label>
+            <input id="electron" onclick="filterSelection('electron')" type="radio" name="category"/>
+            <label for="electron">Electron</label>
+        </div>
+        <div id="select">
+            <p>Select one of the options above!</p>
+        </div>
         <div class="container">
-            <div class="filterDiv all web">Personal Website</div>
-            <div class="filterDiv all electron">Music</div>
-            <div class="filterDiv all web">Rome</div>
-            <div class="filterDiv all web">Microprocessors</div>
+            <div id="one" class="filterDiv all web">
+                <div id="one-title" class="title">
+                    <h2>Personal Website</h2>
+                </div>
+            </div>
+            <div id="two" class="filterDiv all electron">
+                <div id="two-title" class="title">
+                    <h2>Music</h2>
+                </div>
+            </div>
+            <div id="three" class="filterDiv all web">
+                <div id="three-title" class="title">
+                    <h2>Rome</h2>
+                </div>
+            </div>
+            <div id="four" class="filterDiv all web">
+                <div id="four-title" class="title">
+                    <h2>Microprocessors</h2>
+                </div>
+            </div>
         </div>
     </div>
 </body>
