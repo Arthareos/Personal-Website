@@ -22,14 +22,6 @@ h1 {
     margin: 0px;
     padding-top: 200px;
 }
-  
-p {
-    font-family: text;
-    color: white;
-    margin-top: 2px;
-    margin-bottom: 2spx;
-    font-size: 20px;
-}
 
 .filterDiv {
     float: left;
@@ -121,6 +113,7 @@ p {
 
 #main-data {
     padding-left: 150px;
+    padding-right: 68px;
     #select {
         p {
             margin-top: 50px;
