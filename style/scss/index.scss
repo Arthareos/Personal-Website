@@ -91,21 +91,42 @@ div#search-bar {
     margin: 25px 25px 21px 25px;
     float: left;
     box-sizing: border-box;
+    img {
+      content: url("./images/navbar/home-gold.png");
+    }
   }
   #projects {
     margin: 25px 25px 21px 25px;
     float: left;
     box-sizing: border-box;
+    img {
+      content: url("./images/navbar/project-white.png");
+    }
+    img:hover {
+      content: url("./images/navbar/project-gold.png");
+    }
   }
   #resume {
     margin: 25px 25px 21px 25px;
     float: left;
     box-sizing: border-box;
+    img {
+      content: url("./images/navbar/resume-white.png");
+    }
+    img:hover {
+      content: url("./images/navbar/resume-gold.png");
+    }
   }
   #github {
     margin: 25px 25px 21px 25px;
     float: left;
     box-sizing: border-box;
+    img {
+      content: url("./images/navbar/github-white.png");
+    }
+    img:hover {
+      content: url("./images/navbar/github-gold.png");
+    }
   }
   #oriz-spacer {
     width: 58px;
