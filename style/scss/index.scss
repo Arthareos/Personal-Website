@@ -1,8 +1,12 @@
 @font-face {
+  font-family: name;
+  src: url("./fonts/name.ttf");
+}
+
+@font-face {
   font-family: title;
   src: url("./fonts/titles.ttf");
 }
-
 
 @font-face {
   font-family: text;
@@ -16,7 +20,7 @@
 }
   
 h1 {
-  font-family: title;
+  font-family: name;
   color: white;
   font-size: 64px;
   margin: 0px;
