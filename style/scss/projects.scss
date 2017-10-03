@@ -3,13 +3,11 @@
     src: url("./fonts/titles.ttf");
 }
   
-  
 @font-face {
     font-family: text;
     src: url("./fonts/text.ttf");
 }
-  
-  
+
 @font-face {
     font-family: subtext;
     src: url("./fonts/subtext.ttf");
@@ -121,13 +119,6 @@ p {
 
 #main-data {
     padding-left: 150px;
-    #select {
-        p {
-            margin-top: 50px;
-            font-size: 30px;
-        }
-    }
-    
     #checkbox {
         label {
             font-family: text;
