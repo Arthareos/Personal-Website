@@ -140,23 +140,25 @@ p {
     bottom: 50px;
     right: 50px;
     .cus-button {
-        background-color: #001B92;
+        background-color: #0785c0;
         color: #ffffff;
         text-align: center;
         margin: 2px;
         width: 200px;
         height: 25px;
         box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
-        border-width: 1px;
-        border-style: solid;
-        border-color: white;
+        border-radius: 3px;
         padding-top: 7px;
         padding-bottom: 7px;
+    }
+    .cus-button:hover {
+        background-color: #5d9afc;
     }
     ul {
         li {
             display: inline-block;
             list-style-type: none;
+            padding-left: 5px;
         }
     }
     a {
@@ -172,7 +174,7 @@ p {
 
 body {
     margin: 0px;
-    background-image: linear-gradient(to bottom, #43c6ac, #191654);
+    background-color: gray;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
