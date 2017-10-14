@@ -82,7 +82,6 @@ p {
     }
     #three {
         background-image: url("./images/rome-thumb.png");
-        // background-attachment: fixed;
         background-size: 100% 100%;
         #three-title {
             margin-top: 236px;
@@ -97,6 +96,8 @@ p {
         }
     }
     #four {
+        background-image: url("./images/micro-thumb.jpg");
+        background-size: 100% 100%;
         #four-title {
             margin-top: 236px;
             padding: 14px 0px 0px 14px;
