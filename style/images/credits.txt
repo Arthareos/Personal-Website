@@ -2,3 +2,4 @@ icons - <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Free
 uiGradients for dank gradients
 cssmatic for box shadow
 css gradient animator for gradient animations
+http://www.freeimageslive.co.uk/free_stock_image/microprocessor-pins-jpg
