@@ -1,24 +1,4 @@
-const $ = require('jquery');
-
 let searchBar = 0;  
-
-function minimize() {
-    win.minimize();
-};
-
-function maximize() {
-    if(!win.isMaximized()) {
-        win.maximize();
-    }
-    else
-    {
-        win.unmaximize();
-    }
-};
-
-function closed() {
-    win.close();
-};
 
 function tabSelector(page, id) {
     var iframe = $("#main-content");
