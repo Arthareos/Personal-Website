@@ -1,0 +1,152 @@
+@font-face {
+  font-family: title;
+  src: url("./Fonts/titles.ttf");
+}
+
+@font-face {
+  font-family: text;
+  src: url("./Fonts/text.ttf");
+}
+
+@font-face {
+  font-family: subtext;
+  src: url("./Fonts/subtext.otf");
+}
+
+h1 {
+  font-family: title;
+  color: white;
+  font-size: 32px;
+  margin: 0px;
+}
+
+p {
+  font-family: text;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+div#title-bar {
+  width: 100%;
+  height: 150px;
+  z-index: 98;
+  position: fixed;
+  background-color: #303030;
+  -webkit-app-region: drag;
+}
+
+div#title-bar #spacer {
+  float: right;
+  height: 30px;
+  width: 1px;
+  background-color: #808080;
+  margin: 9px 8px 9px 8px;
+  opacity: 0.5;
+}
+
+div#title-bar input[type=search] {
+  -webkit-app-region: no-drag;
+  float: right;
+  height: 30px;
+  width: 180px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 9px 8px 9px 8px;
+  border-radius: 4px;
+  border: 1px solid #222326;
+  background-color: white;
+  font-family: text;
+  font-size: 20;
+  transition: width 0.4s ease-in-out;
+  visibility: hidden;
+}
+
+div#title-bar input[type=search]:focus {
+  width: calc(100% - 175px);
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#nav-bar {
+  height: 150px;
+  width: 100%;
+  background-color: #222326;
+  z-index: 98;
+  position: fixed;
+  top: calc(100% - 150px);
+  overflow: hidden;
+}
+
+#nav-bar #main-page {
+  float: left;
+  box-sizing: border-box;
+}
+
+#nav-bar #browse {
+  float: left;
+  box-sizing: border-box;
+}
+
+#nav-bar #radio {
+  float: left;
+  box-sizing: border-box;
+}
+
+#nav-bar #library {
+  float: left;
+  box-sizing: border-box;
+}
+
+#nav-bar #oriz-spacer {
+  width: 58px;
+  height: 1px;
+  background-color: #808080;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 12px;
+  margin-right: 12px;
+  float: left;
+  box-sizing: border-box;
+  -webkit-app-region: no-drag;
+  opacity: 0.5;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#main {
+  height: calc(100% - 300px);
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 60px;
+  z-index: 2;
+  position: fixed;
+  overflow-y: scroll;
+}
+
+#main #main-content {
+  border: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#main #main-content ::-webkit-scrollbar {
+  display: none;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body {
+  z-index: 1;
+  position: relative;
+  margin: 0px;
+  background-image: url(./Images/background.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+html {
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+}
