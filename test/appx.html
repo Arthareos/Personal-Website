@@ -19,7 +19,7 @@
             <a id="main-page" onclick="tabSelector('backup.html', 'mainimg')"><img id="mainimg" src="./style/img/logo.png" height="64" width="64"></a>
             <a id="browse" onclick="tabSelector('browse.html', 'brow')"><img id="brow" src="./style/img/logo.png" height="64" width="64"></a>
             <a id="radio" onclick="tabSelector('radio.html', 'rad')"><img id="rad" src="./style/img/logo.png" height="64" width="64"></a>
-            <a id="library" onclick="openNav()"><img id="lib" src="./style/img/logo.png" height="64" width="64"></a>
+            <a id="library" onclick="openNav()"><img id="lib" src="./style/img/up.png" height="64" width="64"></a>
         </div>
     </body>
     <script src="appx.js"></script>
@@ -40,6 +40,7 @@
                             clearInterval(one);
                             Open = 1;
                             Action = 0;
+                            document.getElementById("lib").src="./style/img/down.png";
                         }
                         else {
                             counter+=2;
@@ -56,6 +57,7 @@
                             clearInterval(zero);
                             Open = 0;
                             Action = 0;
+                            document.getElementById("lib").src="./style/img/up.png";
                         }
                         else {
                             counter-=2;
