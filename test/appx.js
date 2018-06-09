@@ -3,21 +3,21 @@ let searchBar = 0;
 function tabSelector(page, id) {
     var iframe = $("#main-content");
     var link = document.getElementById(id);
-    $("#mainimg").attr("src", "./Style/Images/Navbar/logo.png");
-    $("#brow").attr("src", "./Style/Images/Navbar/logo.png");
-    $("#rad").attr("src", "./Style/Images/Navbar/logo.png");
-    $("#lib").attr("src", "./Style/Images/Navbar/logo.png");
+    $("#mainimg").attr("src", "./style/img/logo.png");
+    $("#brow").attr("src", "./style/img/logo.png");
+    $("#rad").attr("src", "./style/img/logo.png");
+    $("#lib").attr("src", "./style/img/up.png");
     if (id == "#mainimg") {
-        $(link).attr("src", "./Style/Images/Close/2.png");
+        $(link).attr("src", "./style/img/");
     }
     if (id == "#brow") {
-        $(link).attr("src", "./Style/Images/Close/2.png");
+        $(link).attr("src", "./style/img/");
     }
     if (id == "#rad") {
-        $(link).attr("src", "./Style/Images/Close/2.png");
+        $(link).attr("src", "./style/img/");
     }
     if (id == "#lib") {
-        $(link).attr("src", "./Style/Images/Close/2.png");
+        $(link).attr("src", "./style/img/");
     }
     iframe.attr("src", page);
 }
