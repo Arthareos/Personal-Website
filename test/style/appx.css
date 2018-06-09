@@ -96,6 +96,7 @@ p {
   position: fixed;
   bottom: -450px;
   overflow: hidden;
+  border-radius: 16px 16px 0px 0px;
 }
 
 #nav-bar #main-page {
@@ -162,10 +163,9 @@ p {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #main {
-  height: calc(100% - 300px);
+  height: calc(100% - 280px);
   width: 100%;
   margin-top: 150px;
-  margin-bottom: 60px;
   z-index: 2;
   position: fixed;
   overflow-y: scroll;
