@@ -1,16 +1,16 @@
 @font-face {
   font-family: title;
-  src: url("./Fonts/titles.ttf");
+  src: url("./fonts/titles.ttf");
 }
 
 @font-face {
   font-family: text;
-  src: url("./Fonts/text.ttf");
+  src: url("./fonts/text.ttf");
 }
 
 @font-face {
   font-family: subtext;
-  src: url("./Fonts/subtext.otf");
+  src: url("./fonts/subtext.otf");
 }
 
 h1 {
@@ -57,6 +57,7 @@ p {
       padding-left: calc(50% - 73px);
       font-size: 64px;
       font-family: title;
+      font-weight: bold;
       margin: 0px;
     }
   }
