@@ -7,17 +7,19 @@
     </head>
     <body>
         <div id="title-bar">
-            <a id="icon" href="#" onclick="openSearch()"><img src="./style/img/logo.png" height="32" width="32"></a>
-            <input type="search" placeholder="Search here...">
+            <a id="search" href="#" onclick="openSearch()"><img src="./style/img/logo.png" height="64" width="64"></a>
+            <!-- <input type="search" placeholder="Search here..."> -->
+            <div id="main-title-cont"><p id="main-title">Title</p></div>
+            <a id="icon" href="#" onclick="openSearch()"><img src="./style/img/logo.png" height="64" width="64"></a>
         </div>
         <div id="main">
                 <iframe id="main-content" src=""></iframe>
         </div>
         <div id="nav-bar" onload="onLoad()">
-            <a id="main-page" onclick="tabSelector('backup.html', 'mainimg')"><img id="mainimg" src="./style/img/logo.png" height="32" width="32"></a>
-            <a id="browse" onclick="tabSelector('browse.html', 'brow')"><img id="brow" src="./style/img/logo.png" height="32" width="32"></a>
-            <a id="radio" onclick="tabSelector('radio.html', 'rad')"><img id="rad" src="./style/img/logo.png" height="32" width="32"></a>
-            <a id="library" onclick="tabSelector('library.html', 'lib')"><img id="lib" src="./style/img/logo.png" height="32" width="32"></a>
+            <a id="main-page" onclick="tabSelector('backup.html', 'mainimg')"><img id="mainimg" src="./style/img/logo.png" height="64" width="64"></a>
+            <a id="browse" onclick="tabSelector('browse.html', 'brow')"><img id="brow" src="./style/img/logo.png" height="64" width="64"></a>
+            <a id="radio" onclick="tabSelector('radio.html', 'rad')"><img id="rad" src="./style/img/logo.png" height="64" width="64"></a>
+            <a id="library" onclick="tabSelector('library.html', 'lib')"><img id="lib" src="./style/img/logo.png" height="64" width="64"></a>
         </div>
     </body>
     <script src="appx.js"></script>
