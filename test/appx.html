@@ -19,8 +19,51 @@
             <a id="main-page" onclick="tabSelector('backup.html', 'mainimg')"><img id="mainimg" src="./style/img/logo.png" height="64" width="64"></a>
             <a id="browse" onclick="tabSelector('browse.html', 'brow')"><img id="brow" src="./style/img/logo.png" height="64" width="64"></a>
             <a id="radio" onclick="tabSelector('radio.html', 'rad')"><img id="rad" src="./style/img/logo.png" height="64" width="64"></a>
-            <a id="library" onclick="tabSelector('library.html', 'lib')"><img id="lib" src="./style/img/logo.png" height="64" width="64"></a>
+            <a id="library" onclick="openNav()"><img id="lib" src="./style/img/logo.png" height="64" width="64"></a>
         </div>
     </body>
     <script src="appx.js"></script>
+    <script>
+        //
+        var Action = 0;
+        var Open = 0;
+        var nav = document.getElementById("nav-bar");
+        var counter = -450;
+        function openNav() {
+            if (Action == 0)
+            {
+                if (Open == 0) {
+                    Action = 1;
+                    var one = setInterval(OpenFrame, 0.1);
+                    function OpenFrame() {
+                        if (nav.style.bottom == "0px") {
+                            clearInterval(one);
+                            Open = 1;
+                            Action = 0;
+                        }
+                        else {
+                            counter++;
+                            nav.style.bottom = counter + "px";
+                        }
+                    }
+                }
+                else {
+                    Action = 1;
+                    zero = setInterval(CloseFrame, 1);
+                    counter = 0;
+                    function CloseFrame() {
+                        if (nav.style.bottom == "-450px") {
+                            clearInterval(zero);
+                            Open = 0;
+                            Action = 0;
+                        }
+                        else {
+                            counter--;
+                            nav.style.bottom = counter + "px";
+                        }
+                    }
+                }
+            }
+        }
+    </script>
 </html>

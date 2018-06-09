@@ -86,12 +86,12 @@ p {
 
 
 #nav-bar {
-  height: 150px;
+  height: 600px;
   width: 100%;
   background-color: rgb(34, 35, 38);
   z-index: 98;
   position: fixed;
-  top: calc(100% - 150px);
+  bottom: -450px;
   overflow: hidden;
   #main-page {
     float: left;
