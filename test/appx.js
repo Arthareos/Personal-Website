@@ -1,3 +1,6 @@
+let action = 0;
+let open = 0;
+
 function tabSelector(page, id) {
     var iframe = $("#main-content");
     var link = document.getElementById(id);
@@ -22,4 +25,31 @@ function tabSelector(page, id) {
 
 function onLoad() {
     tabSelector('backup.html', 'mainimg');
+}
+
+function openMenu() {
+    document.getElementById("navBar").style.WebkitAnimationPlayState = "paused";
+    document.getElementById("menu").src = "./style/img/down.png";
+    open = 1;
+}
+
+function closeMenu() {
+    document.getElementById("navBar").style.WebkitAnimationPlayState = "paused";
+    document.getElementById("menu").src = "./style/img/up.png";
+    open = 0;
+}
+
+function operateMenu() {
+    if (action == 0)
+    {
+        document.getElementById("navBar").style.WebkitAnimationPlayState = "running";
+        if (open == 0)
+        {
+            setTimeout(openMenu, 2000);
+        }
+        else
+        {
+            setTimeout(closeMenu, 2000);
+        }
+    }
 }

@@ -84,6 +84,18 @@ p {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+@keyframes openMenu {
+    0% {
+        bottom: -450px;
+    }
+    50% {
+        bottom: 0px;
+    }
+    100% {
+        bottom: -450px;
+    }
+}
+
 #navBar {
     height: 600px;
     width: 100%;
@@ -93,10 +105,10 @@ p {
     bottom: -450px;
     overflow: hidden;
     border-radius: 16px 16px 0px 0px;
-    transition: 2s;
-    &:active {
-        bottom: 0px;
-    }
+    animation: openMenu;
+    animation-duration: 4s;
+    animation-play-state: paused;
+    animation-iteration-count: infinite;
     .button {
         float: left;
         box-sizing: border-box;
