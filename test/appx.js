@@ -1,5 +1,3 @@
-let searchBar = 0;  
-
 function tabSelector(page, id) {
     var iframe = $("#main-content");
     var link = document.getElementById(id);

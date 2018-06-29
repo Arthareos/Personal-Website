@@ -88,7 +88,7 @@ p {
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-#nav-bar {
+#navBar {
   height: 600px;
   width: 100%;
   background-color: #222326;
@@ -97,68 +97,23 @@ p {
   bottom: -450px;
   overflow: hidden;
   border-radius: 16px 16px 0px 0px;
+  transition: 2s;
 }
 
-#nav-bar #main-page {
+#navBar:active {
+  bottom: 0px;
+}
+
+#navBar .button {
   float: left;
   box-sizing: border-box;
   width: 25%;
   height: 150px;
 }
 
-#nav-bar #main-page img {
+#navBar .button img {
   padding-left: calc(50% - 32px);
   padding-top: 43px;
-}
-
-#nav-bar #browse {
-  float: left;
-  box-sizing: border-box;
-  width: 25%;
-  height: 150px;
-}
-
-#nav-bar #browse img {
-  padding-left: calc(50% - 32px);
-  padding-top: 43px;
-}
-
-#nav-bar #radio {
-  float: left;
-  box-sizing: border-box;
-  width: 25%;
-  height: 150px;
-}
-
-#nav-bar #radio img {
-  padding-left: calc(50% - 32px);
-  padding-top: 43px;
-}
-
-#nav-bar #library {
-  float: left;
-  box-sizing: border-box;
-  width: 25%;
-  height: 150px;
-}
-
-#nav-bar #library img {
-  padding-left: calc(50% - 32px);
-  padding-top: 43px;
-}
-
-#nav-bar #oriz-spacer {
-  width: 58px;
-  height: 1px;
-  background-color: #808080;
-  margin: 0px;
-  padding: 0px;
-  margin-left: 12px;
-  margin-right: 12px;
-  float: left;
-  box-sizing: border-box;
-  -webkit-app-region: no-drag;
-  opacity: 0.5;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/

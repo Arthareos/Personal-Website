@@ -3,7 +3,7 @@
     <head>
         <title>Test</title>
         <link rel="stylesheet" type="text/css" href="./style/appx.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
     <body>
         <div id="title-bar">
@@ -15,57 +15,12 @@
         <div id="main">
                 <iframe id="main-content" src=""></iframe>
         </div>
-        <div id="nav-bar" onload="onLoad()">
-            <a id="main-page" onclick="tabSelector('backup.html', 'mainimg')"><img id="mainimg" src="./style/img/logo.png" height="64" width="64"></a>
-            <a id="browse" onclick="tabSelector('browse.html', 'brow')"><img id="brow" src="./style/img/logo.png" height="64" width="64"></a>
-            <a id="radio" onclick="tabSelector('radio.html', 'rad')"><img id="rad" src="./style/img/logo.png" height="64" width="64"></a>
-            <a id="library" onclick="openNav()"><img id="lib" src="./style/img/up.png" height="64" width="64"></a>
+        <div id="navBar" class="open" onload="onLoad()">
+            <a class="button" onclick="tabSelector('backup.html', 'mainimg')"><img id="mainimg" src="./style/img/logo.png" height="64" width="64"></a>
+            <a class="button" onclick="tabSelector('browse.html', 'brow')"><img id="brow" src="./style/img/logo.png" height="64" width="64"></a>
+            <a class="button" onclick="tabSelector('radio.html', 'rad')"><img id="rad" src="./style/img/logo.png" height="64" width="64"></a>
+            <a class="button" onclick="openNav()"><img id="lib" src="./style/img/up.png" height="64" width="64"></a>
         </div>
     </body>
     <script src="appx.js"></script>
-    <script>
-        //
-        var Action = 0;
-        var Open = 0;
-        var nav = document.getElementById("nav-bar");
-        var counter = -450;
-        function openNav() {
-            if (Action == 0)
-            {
-                if (Open == 0) {
-                    Action = 1;
-                    var one = setInterval(OpenFrame, 1);
-                    function OpenFrame() {
-                        if (nav.style.bottom == "0px") {
-                            clearInterval(one);
-                            Open = 1;
-                            Action = 0;
-                            document.getElementById("lib").src="./style/img/down.png";
-                        }
-                        else {
-                            counter+=2;
-                            nav.style.bottom = counter + "px";
-                        }
-                    }
-                }
-                else {
-                    Action = 1;
-                    zero = setInterval(CloseFrame, 1);
-                    counter = 0;
-                    function CloseFrame() {
-                        if (nav.style.bottom == "-450px") {
-                            clearInterval(zero);
-                            Open = 0;
-                            Action = 0;
-                            document.getElementById("lib").src="./style/img/up.png";
-                        }
-                        else {
-                            counter-=2;
-                            nav.style.bottom = counter + "px";
-                        }
-                    }
-                }
-            }
-        }
-    </script>
 </html>
