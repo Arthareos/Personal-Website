@@ -45,11 +45,11 @@ function operateMenu() {
         document.getElementById("navBar").style.WebkitAnimationPlayState = "running";
         if (open == 0)
         {
-            setTimeout(openMenu, 2000);
+            setTimeout(openMenu, 1500);
         }
         else
         {
-            setTimeout(closeMenu, 2000);
+            setTimeout(closeMenu, 1500);
         }
     }
 }
