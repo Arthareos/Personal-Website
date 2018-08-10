@@ -30,12 +30,23 @@ p {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-#title-bar {
+#titleBarShader {
     width: 100%;
     height: 150px;
     z-index: 98;
     position: fixed;
     background-color: rgb(48, 48, 48);
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.75;
+}
+
+#titleBar {
+    width: 100%;
+    height: 150px;
+    z-index: 99;
+    position: fixed;
+    background-color: transparent;
     -webkit-app-region: drag;
     a {
         width: 25%;
@@ -99,8 +110,8 @@ p {
 #navBar {
     height: 750px;
     width: 100%;
-    background-color: rgb(34, 35, 38);
-    z-index: 98;
+    background-color: transparent;
+    z-index: 99;
     position: fixed;
     bottom: -600px;
     overflow: hidden;
@@ -114,11 +125,31 @@ p {
         box-sizing: border-box;
         width: 25%;
         height: 150px;
+        filter: none;
+        opacity: 1;
         img {
             padding-left: calc(50% - 32px);
             padding-top: 43px;
         }
     }
+}
+
+#navBarShader {
+    height: 750px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    z-index: 98;
+    position: fixed;
+    bottom: -600px;
+    overflow: hidden;
+    border-radius: 16px 16px 0px 0px;
+    animation: openMenu;
+    animation-duration: 3s;
+    animation-play-state: paused;
+    animation-iteration-count: infinite;
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.75;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/

@@ -29,12 +29,14 @@ function onLoad() {
 
 function openMenu() {
     document.getElementById("navBar").style.WebkitAnimationPlayState = "paused";
+    document.getElementById("navBarShader").style.WebkitAnimationPlayState = "paused";
     document.getElementById("menu").src = "./style/img/down.png";
     open = 1;
 }
 
 function closeMenu() {
     document.getElementById("navBar").style.WebkitAnimationPlayState = "paused";
+    document.getElementById("navBarShader").style.WebkitAnimationPlayState = "paused";
     document.getElementById("menu").src = "./style/img/up.png";
     open = 0;
 }
@@ -43,6 +45,7 @@ function operateMenu() {
     if (action == 0)
     {
         document.getElementById("navBar").style.WebkitAnimationPlayState = "running";
+        document.getElementById("navBarShader").style.WebkitAnimationPlayState = "running";
         if (open == 0)
         {
             setTimeout(openMenu, 1500);

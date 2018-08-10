@@ -6,16 +6,18 @@
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
     <body>
-        <div id="title-bar">
+        <div id="titleBarShader"></div>
+        <div id="titleBar">
             <a id="search" href="#" onclick="openSearch()"><img src="./style/img/logo.png" height="64" width="64"></a>
             <!-- <input type="search" placeholder="Search here..."> -->
             <div id="main-title-cont"><p id="main-title">Title</p></div>
             <a id="icon" href="#" onclick="openSearch()"><img src="./style/img/logo.png" height="64" width="64"></a>
         </div>
         <div id="main">
-                <iframe id="main-content" src=""></iframe>
+            <iframe id="main-content" src=""></iframe>
         </div>
-        <div id="navBar" class="open" onload="onLoad()">
+        <div id="navBarShader" class="open" onload="onLoad()"></div>
+        <div id="navBar" class="open">
             <a class="button" onclick="tabSelector('backup.html', 'mainimg')"><img id="mainimg" src="./style/img/logo.png" height="64" width="64"></a>
             <a class="button" onclick="tabSelector('browse.html', 'brow')"><img id="brow" src="./style/img/logo.png" height="64" width="64"></a>
             <a class="button" onclick="tabSelector('radio.html', 'rad')"><img id="rad" src="./style/img/logo.png" height="64" width="64"></a>
