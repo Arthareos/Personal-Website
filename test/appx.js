@@ -48,11 +48,11 @@ function operateMenu() {
         document.getElementById("navBarShader").style.WebkitAnimationPlayState = "running";
         if (open == 0)
         {
-            setTimeout(openMenu, 1500);
+            setTimeout(openMenu, 1000);
         }
         else
         {
-            setTimeout(closeMenu, 1500);
+            setTimeout(closeMenu, 1000);
         }
     }
 }

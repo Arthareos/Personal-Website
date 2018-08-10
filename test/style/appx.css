@@ -121,7 +121,7 @@ p {
   overflow: hidden;
   border-radius: 16px 16px 0px 0px;
   animation: openMenu;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-play-state: paused;
   animation-iteration-count: infinite;
 }
@@ -150,7 +150,7 @@ p {
   overflow: hidden;
   border-radius: 16px 16px 0px 0px;
   animation: openMenu;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-play-state: paused;
   animation-iteration-count: infinite;
   filter: blur(10px);
