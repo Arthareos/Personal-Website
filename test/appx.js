@@ -51,12 +51,12 @@ function operateMenu() {
         if (open == 0)
         {
             action = 1;
-            setTimeout(openMenu, 1000);
+            setTimeout(openMenu, 1500);
         }
         else
         {
             action = 1;
-            setTimeout(closeMenu, 1000);
+            setTimeout(closeMenu, 1500);
         }
     }
 }
