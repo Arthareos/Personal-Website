@@ -29,7 +29,9 @@ function onLoad() {
 
 function openMenu() {
     document.getElementById("navBar").style.WebkitAnimationPlayState = "paused";
+    document.getElementById("navBar").style.bottom = "0px";
     document.getElementById("navBarShader").style.WebkitAnimationPlayState = "paused";
+    document.getElementById("navBarShader").style.bottom = "0px";
     document.getElementById("menu").src = "./style/img/down.png";
     open = 1;
     action = 0;
@@ -37,7 +39,9 @@ function openMenu() {
 
 function closeMenu() {
     document.getElementById("navBar").style.WebkitAnimationPlayState = "paused";
+    document.getElementById("navBar").style.bottom = "-600px";
     document.getElementById("navBarShader").style.WebkitAnimationPlayState = "paused";
+    document.getElementById("navBarShader").style.bottom = "-600px";
     document.getElementById("menu").src = "./style/img/up.png";
     open = 0;
     action = 0;
