@@ -117,13 +117,10 @@ p {
   background-color: transparent;
   z-index: 99;
   position: fixed;
-  bottom: -600px;
   overflow: hidden;
   border-radius: 16px 16px 0px 0px;
-  animation: openMenu;
-  animation-duration: 3s;
-  animation-play-state: paused;
-  animation-iteration-count: infinite;
+  transition: 1.5s;
+  transition-timing-function: ease-in-out;
 }
 
 #navBar .button {
@@ -140,19 +137,24 @@ p {
   padding-top: 43px;
 }
 
+.navClosed {
+  bottom: -600px;
+}
+
+.navOpen {
+  bottom: 0px;
+}
+
 #navBarShader {
   height: 750px;
   width: 100%;
   background-color: #303030;
   z-index: 98;
   position: fixed;
-  bottom: -600px;
   overflow: hidden;
   border-radius: 16px 16px 0px 0px;
-  animation: openMenu;
-  animation-duration: 3s;
-  animation-play-state: paused;
-  animation-iteration-count: infinite;
+  transition: 1.5s;
+  transition-timing-function: ease-in-out;
   filter: blur(10px);
   background-size: cover;
   opacity: 0.75;

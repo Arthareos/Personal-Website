@@ -27,40 +27,21 @@ function onLoad() {
     tabSelector('backup.html', 'mainimg');
 }
 
-function openMenu() {
-    document.getElementById("navBar").style.WebkitAnimationPlayState = "paused";
-    document.getElementById("navBar").style.bottom = "0px";
-    document.getElementById("navBarShader").style.WebkitAnimationPlayState = "paused";
-    document.getElementById("navBarShader").style.bottom = "0px";
-    document.getElementById("menu").src = "./style/img/down.png";
-    open = 1;
-    action = 0;
-}
-
-function closeMenu() {
-    document.getElementById("navBar").style.WebkitAnimationPlayState = "paused";
-    document.getElementById("navBar").style.bottom = "-600px";
-    document.getElementById("navBarShader").style.WebkitAnimationPlayState = "paused";
-    document.getElementById("navBarShader").style.bottom = "-600px";
-    document.getElementById("menu").src = "./style/img/up.png";
-    open = 0;
-    action = 0;
-}
-
 function operateMenu() {
-    if (action == 0)
-    {
-        document.getElementById("navBar").style.WebkitAnimationPlayState = "running";
-        document.getElementById("navBarShader").style.WebkitAnimationPlayState = "running";
-        if (open == 0)
-        {
-            action = 1;
-            setTimeout(openMenu, 1500);
-        }
-        else
-        {
-            action = 1;
-            setTimeout(closeMenu, 1500);
-        }
+    if (open == 0) {
+        document.getElementById("navBar").classList.remove("navClosed");
+        document.getElementById("navBarShader").classList.remove("navClosed");
+        document.getElementById("navBar").classList.add("navOpen");
+        document.getElementById("navBarShader").classList.add("navOpen");
+        document.getElementById("menu").src = "./style/img/down.png";
+        open = 1;
+    }
+    else {
+        document.getElementById("navBar").classList.remove("navOpen");
+        document.getElementById("navBarShader").classList.remove("navOpen");
+        document.getElementById("navBar").classList.add("navClosed");
+        document.getElementById("navBarShader").classList.add("navClosed");
+        document.getElementById("menu").src = "./style/img/up.png";
+        open = 0;
     }
 }
