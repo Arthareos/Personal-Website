@@ -32,6 +32,7 @@ function openMenu() {
     document.getElementById("navBarShader").style.WebkitAnimationPlayState = "paused";
     document.getElementById("menu").src = "./style/img/down.png";
     open = 1;
+    action = 0;
 }
 
 function closeMenu() {
@@ -39,6 +40,7 @@ function closeMenu() {
     document.getElementById("navBarShader").style.WebkitAnimationPlayState = "paused";
     document.getElementById("menu").src = "./style/img/up.png";
     open = 0;
+    action = 0;
 }
 
 function operateMenu() {
@@ -48,10 +50,12 @@ function operateMenu() {
         document.getElementById("navBarShader").style.WebkitAnimationPlayState = "running";
         if (open == 0)
         {
+            action = 1;
             setTimeout(openMenu, 1000);
         }
         else
         {
+            action = 1;
             setTimeout(closeMenu, 1000);
         }
     }
