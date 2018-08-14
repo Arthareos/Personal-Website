@@ -2,19 +2,23 @@
 <html>
     <head>
         <title>Test</title>
-        <link rel="stylesheet" type="text/css" href="./style/appx.css">
+        <link rel="stylesheet" type="text/css" href="./style/index.css">
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <link rel="icon" href="icon.png">
     </head>
     <body>
         <div id="titleBarShader"></div>
         <div id="titleBar">
             <a id="search" href="#" onclick="openSearch()"><img src="./style/img/logo.png" height="64" width="64"></a>
-            <!-- <input type="search" placeholder="Search here..."> -->
             <div id="main-title-cont"><p id="main-title">Title</p></div>
             <a id="icon" href="#" onclick="openSearch()"><img src="./style/img/logo.png" height="64" width="64"></a>
         </div>
         <div id="main">
-            <iframe id="main-content" src=""></iframe>
+            <h1>Simone Di Fonzo</h1>
+            <p>Pending bio...</p>
+            <p>Hello! My name's Simone Di Fonzo and welcome to my website!</p>
+            <div id="main_data">
+            </div>
         </div>
         <div id="navBarShader" class="navClosed" onload="onLoad()"></div>
         <div id="navBar" class="navClosed">
@@ -24,5 +28,5 @@
             <a class="button" onclick="operateMenu()"><img id="menu" src="./style/img/up.png" height="64" width="64"></a>
         </div>
     </body>
-    <script src="appx.js"></script>
+    <script src="index.js"></script>
 </html>

@@ -1,32 +1,42 @@
 @font-face {
+    font-family: name;
+    src: url("./fonts/name.ttf");
+  }
+  
+  @font-face {
     font-family: title;
     src: url("./fonts/titles.ttf");
-}
-
-@font-face {
+  }
+  
+  @font-face {
     font-family: text;
     src: url("./fonts/text.ttf");
-}
-
-@font-face {
-    font-family: subtext;
-    src: url("./fonts/subtext.otf");
-}
-
-h1 {
-    font-family: title;
+  }
+    
+  h1 {
+    font-family: name;
     color: white;
-    font-size: 32px;
+    font-size: 64px;
     margin: 0px;
-}
-
-p {
+    padding-top: 200px;
+  }
+  
+  h2 {
+    font-family: title;
+    padding-left: 75px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 24px;
+    margin: 0px;
+  }
+  
+  p {
     font-family: text;
     color: white;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     font-size: 20px;
-}
+  }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
@@ -95,18 +105,6 @@ p {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-@keyframes openMenu {
-    0% {
-        bottom: -600px;
-    }
-    50% {
-        bottom: 0px;
-    }
-    100% {
-        bottom: -600px;
-    }
-}
-
 #navBar {
     height: 750px;
     width: 100%;
@@ -162,11 +160,6 @@ p {
     margin-top: 150px;  
     z-index: 2;
     position: fixed;
-    #main-content {
-        border: 0px;
-        width: 100%;
-        height: 100%;
-    }
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -175,7 +168,7 @@ body {
     z-index: 1;
     position: relative;
     margin: 0px;
-    background-image: url(./img/background.png);
+    background-image: linear-gradient(to top, #547A50, #0a9994);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
