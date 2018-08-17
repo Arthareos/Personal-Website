@@ -9,9 +9,14 @@
     <body>
         <div id="titleBarShader"></div>
         <div id="titleBar">
-            <a id="search" href="#" onclick="openSearch()"><img src="./style/img/logo.png" height="64" width="64"></a>
-            <div id="main-title-cont"><p id="main-title">Title</p></div>
-            <a id="icon" href="#" onclick="openSearch()"><img src="./style/img/logo.png" height="64" width="64"></a>
+            <div id="mainTitle-cont"><p id="mainTitle">Home</p></div>
+        </div>
+        <div id="navBarShader" class="navClosed" onload="onLoad()"></div>
+        <div id="navBar" class="navClosed">
+            <a class="button"><img id="mainimg" src="./style/img/logo.png" height="64" width="64"></a>
+            <a class="button"><img id="brow" src="./style/img/logo.png" height="64" width="64"></a>
+            <a class="button"><img id="rad" src="./style/img/logo.png" height="64" width="64"></a>
+            <a class="button" onclick="operateMenu()"><img id="menu" src="./style/img/up.png" height="64" width="64"></a>
         </div>
         <div id="main">
             <h1>Simone Di Fonzo</h1>
@@ -19,13 +24,6 @@
             <p>Hello! My name's Simone Di Fonzo and welcome to my website!</p>
             <div id="main_data">
             </div>
-        </div>
-        <div id="navBarShader" class="navClosed" onload="onLoad()"></div>
-        <div id="navBar" class="navClosed">
-            <a class="button" onclick="tabSelector('backup.html', 'mainimg')"><img id="mainimg" src="./style/img/logo.png" height="64" width="64"></a>
-            <a class="button" onclick="tabSelector('browse.html', 'brow')"><img id="brow" src="./style/img/logo.png" height="64" width="64"></a>
-            <a class="button" onclick="tabSelector('radio.html', 'rad')"><img id="rad" src="./style/img/logo.png" height="64" width="64"></a>
-            <a class="button" onclick="operateMenu()"><img id="menu" src="./style/img/up.png" height="64" width="64"></a>
         </div>
     </body>
     <script src="index.js"></script>
