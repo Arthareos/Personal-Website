@@ -1,9 +1,4 @@
 @font-face {
-    font-family: name;
-    src: url("./fonts/name.ttf");
-}
-  
-@font-face {
     font-family: title;
     src: url("./fonts/titles.ttf");
 }
@@ -12,26 +7,32 @@
     font-family: text;
     src: url("./fonts/text.ttf");
 }
-    
+
+@font-face {
+    font-family: subtext;
+    src: url("./fonts/subtext.ttf");
+}
+
 h1 {
-    font-family: name;
+    font-family: title;
     color: white;
     font-size: 64px;
     margin: 0px;
     padding-top: 200px;
 }
-  
+
 h2 {
-    font-family: title;
-    padding-left: 75px;
-    padding-top: 50px;
-    padding-bottom: 25px;
-    font-size: 24px;
-    margin: 0px;
-}
-  
-p {
     font-family: text;
+    color: white;
+    float: left;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+p {
+    font-family: subtext;
     color: white;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -143,23 +144,43 @@ p {
     width: 100%;
     z-index: 2;
     position: fixed;
+    #mainData {
+        a {
+            text-decoration: underline;
+            color: white;
+        }
+        a:hover {
+            text-decoration: none;
+            color: #D4AF37;
+        }
+    }
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+@keyframes BackgroundAnimation { 
+    0% {
+        background-position:50% 0%;
+    }
+    50% {
+        background-position:51% 100%;
+    }
+    100% {
+        background-position:50% 0%;
+    }
+}
+
 body {
-    z-index: 1;
-    position: relative;
     margin: 0px;
-    background-image: linear-gradient(to top, #547A50, #0a9994);
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: linear-gradient(0deg, #000000, #700000);
     background-repeat: no-repeat;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    animation: BackgroundAnimation 10s ease infinite;
 }
 
 html {
-    z-index: 0;
-    height: 100%;
+    margin: 0px;
     width: 100%;
-    overflow: hidden;
+    height: 100%;
 }

@@ -13,42 +13,6 @@
   src: url("./fonts/subtext.ttf");
 }
 
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 50% 0%;
-  }
-  50% {
-    background-position: 51% 100%;
-  }
-  100% {
-    background-position: 50% 0%;
-  }
-}
-
-@-moz-keyframes AnimationName {
-  0% {
-    background-position: 50% 0%;
-  }
-  50% {
-    background-position: 51% 100%;
-  }
-  100% {
-    background-position: 50% 0%;
-  }
-}
-
-@keyframes AnimationName {
-  0% {
-    background-position: 50% 0%;
-  }
-  50% {
-    background-position: 51% 100%;
-  }
-  100% {
-    background-position: 50% 0%;
-  }
-}
-
 h1 {
   font-family: title;
   color: white;
@@ -58,7 +22,7 @@ h1 {
 }
 
 h2 {
-  font-family: subtext;
+  font-family: text;
   color: white;
   float: left;
   font-size: 30px;
@@ -68,7 +32,7 @@ h2 {
 }
 
 p {
-  font-family: text;
+  font-family: subtext;
   color: white;
   margin-top: 2px;
   margin-bottom: 2px;
@@ -168,15 +132,25 @@ p {
   opacity: 0.5;
 }
 
+@keyframes BackgroundAnimation {
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 51% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
 body {
   margin: 0px;
   background-image: linear-gradient(0deg, #000000, #700000);
   background-repeat: no-repeat;
   background-size: 400% 400%;
   background-attachment: fixed;
-  -webkit-animation: AnimationName 10s ease infinite;
-  -moz-animation: AnimationName 10s ease infinite;
-  animation: AnimationName 10s ease infinite;
+  animation: BackgroundAnimation 10s ease infinite;
 }
 
 html {

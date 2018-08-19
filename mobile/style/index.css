@@ -46,10 +46,10 @@ p {
   position: fixed;
   top: -50px;
   left: -50px;
-  background-color: #303030;
+  background-color: black;
   filter: blur(10px);
   background-size: cover;
-  opacity: 0.75;
+  opacity: 0.50;
 }
 
 #titleBar {
@@ -127,7 +127,7 @@ p {
 #navBarShader {
   height: 750px;
   width: calc(100% + 100px);
-  background-color: #303030;
+  background-color: black;
   z-index: 98;
   position: fixed;
   left: -50px;
@@ -137,7 +137,7 @@ p {
   transition-timing-function: ease-in-out;
   filter: blur(10px);
   background-size: cover;
-  opacity: 0.75;
+  opacity: 0.50;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/

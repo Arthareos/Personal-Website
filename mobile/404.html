@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Home</title>
-        <link rel="stylesheet" type="text/css" href="./style/index.css">
+        <title>Error 404: Page not found.</title>
+        <link rel="stylesheet" type="text/css" href="./style/404.css">
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <link rel="icon" href="icon.png">
     </head>
@@ -11,18 +11,23 @@
         <div id="titleBar">
             <div id="mainTitle-cont"><p id="mainTitle">Home</p></div>
         </div>
-        <div id="navBarShader" class="navClosed"></div>
+        <div id="navBarShader" class="navClosed" onload="onLoad()"></div>
         <div id="navBar" class="navClosed">
             <a class="button"><img id="mainimg" src="./style/img/logo.png" height="64" width="64"></a>
             <a class="button"><img id="brow" src="./style/img/logo.png" height="64" width="64"></a>
             <a class="button"><img id="rad" src="./style/img/logo.png" height="64" width="64"></a>
             <a class="button" onclick="operateMenu()"><img id="menu" src="./style/img/up.png" height="64" width="64"></a>
         </div>
-        <div id="main">
-            <h1>Simone Di Fonzo</h1>
-            <p>Pending bio...</p>
-            <p>Hello! My name's Simone Di Fonzo and welcome to my website!</p>
+        <div id="main">    
             <div id="mainData">
+                <h1>Error: 404 - Page not found!</h1>
+                <h2>What does that mean?</h2>
+                <p>1. That the page doesn't exist. *mindblown*</p>
+                <p>2. That the page isn't available at the moment.</p>
+                <h2>What can you do?</h2>
+                <p>You could create a new issue on the project's <a href="https://github.com/Arthareos/arthareos.github.io/issues">issue page</a>, please?</p>
+                <h2>How's even possible?</h2>
+                <p>It happens to the best of us too...</p>
             </div>
         </div>
     </body>
