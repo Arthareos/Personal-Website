@@ -32,10 +32,10 @@ h2 {
   
 p {
     font-family: text;
-    color: white;
+    color: black;
     margin-top: 2px;
     margin-bottom: 2px;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -70,12 +70,12 @@ p {
         padding-top: 43px;
         }
     }
-    #mainTitle-cont {
+    #pageTitle-cont {
         width: 100%;
         height: 150px;
         float: left;
         box-sizing: border-box;
-        #mainTitle {
+        #pageTitle {
             padding-top: 36px;
             text-align: center;
             font-size: 64px;
@@ -142,7 +142,23 @@ p {
     height: 100%;
     width: 100%;
     z-index: 2;
-    position: fixed;
+    .paragraphContainer {
+        width: calc(100% - 102px);
+        margin-left: 20px;
+        margin-bottom: 16px;
+        border-radius: 8px;
+        padding: 32px 32px 32px 32px;
+        background-color: white;
+    }
+    #mainTitle {
+        margin-bottom: 32px;
+        font-size: 124px;
+        text-align: center;
+    }
+    #scrollAccessible {
+        height: 150px;
+        width: 100%;
+    }
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -161,5 +177,4 @@ html {
     z-index: 0;
     height: 100%;
     width: 100%;
-    overflow: hidden;
 }
