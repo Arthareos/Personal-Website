@@ -92,7 +92,8 @@ p {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #navBar {
   height: 750px;
-  width: 100%;
+  width: 1080px;
+  margin-left: calc((100% - 1080px) / 2);
   background-color: transparent;
   z-index: 99;
   position: fixed;
@@ -125,9 +126,10 @@ p {
 }
 
 #navBarShader {
-  height: 750px;
+  height: 1000px;
   width: calc(100% + 100px);
   background-color: black;
+  background-position-y: -200px;
   z-index: 98;
   position: fixed;
   left: -50px;
@@ -148,8 +150,8 @@ p {
 }
 
 #main .paragraphContainer {
-  width: calc(100% - 102px);
-  margin-left: 20px;
+  width: 976px;
+  margin-left: calc((100% - 1040px) / 2);
   margin-bottom: 16px;
   border-radius: 8px;
   padding: 32px 32px 32px 32px;
