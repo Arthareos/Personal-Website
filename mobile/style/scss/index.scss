@@ -33,8 +33,9 @@ h2 {
 p {
     font-family: text;
     color: black;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin: 0px;
+    // margin-top: 2px;
+    // margin-bottom: 2px;
     font-size: 40px;
 }
 
@@ -91,7 +92,7 @@ p {
 #navBar {
     height: 750px;
     width: 1080px;
-    margin-left: calc((100% - 1080px) / 2);
+    margin-left: calc(calc(100% - 1080px) / 2);
     background-color: transparent;
     z-index: 99;
     position: fixed;
@@ -145,11 +146,11 @@ p {
     width: 100%;
     z-index: 2;
     .paragraphContainer {
-        width: 976px;
-        margin-left: calc((100% - 1040px) / 2);
+        width: calc(100% - 104px);
+        margin: 20px;
         margin-bottom: 16px;
         border-radius: 8px;
-        padding: 32px 32px 32px 32px;
+        padding: 24px 32px 24px 32px;
         background-color: white;
     }
     #mainTitle {
