@@ -192,12 +192,12 @@ p {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 body {
   z-index: 1;
-  height: calc(100% + 150px);
+  height: 100%;
   width: 100%;
   position: relative;
   margin: 0px;
   background-image: linear-gradient(to top, #547A50, #0a9994);
-  background-size: cover;
+  background-size: 100% calc(100% + 200px);
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
