@@ -1,20 +1,15 @@
 let open = 0;
 
-function operateMenu() {
-    if (open == 0) {
-        document.getElementById("navBar").classList.remove("navClosed");
-        document.getElementById("navBarShader").classList.remove("navClosed");
-        document.getElementById("navBar").classList.add("navOpen");
-        document.getElementById("navBarShader").classList.add("navOpen");
-        document.getElementById("menu").src = "./style/img/down.png";
-        open = 1;
-    }
-    else {
-        document.getElementById("navBar").classList.remove("navOpen");
-        document.getElementById("navBarShader").classList.remove("navOpen");
-        document.getElementById("navBar").classList.add("navClosed");
-        document.getElementById("navBarShader").classList.add("navClosed");
-        document.getElementById("menu").src = "./style/img/up.png";
-        open = 0;
-    }
+function openMenu() {
+    document.getElementById("menu").classList.remove("menuClosed");
+    document.getElementById("menu").classList.add("menuOpen");
+    document.getElementById("menuShader").classList.remove("menuShaderClosed");
+    document.getElementById("menuShader").classList.add("menuShaderOpen");
+}
+
+function closeMenu() {
+    document.getElementById("menu").classList.remove("menuOpen");
+    document.getElementById("menu").classList.add("menuClosed");
+    document.getElementById("menuShader").classList.remove("menuShaderOpen");
+    document.getElementById("menuShader").classList.add("menuShaderClosed");
 }
