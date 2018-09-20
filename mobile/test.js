@@ -20,7 +20,7 @@ $(window).scroll(function() {
     var height = $(".top").height();
     var offset = $(".top").offset().top;
     
-    var opacity = ((height - homeTop + offset) / height) / 23;
+    var opacity = ((height - homeTop + offset) / height) / 14;
 
     $("#mainTitleContainer").css("opacity", opacity);
 });
