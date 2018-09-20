@@ -118,7 +118,7 @@ p {
 }
 
 #main .mainContent {
-  margin-top: 100%;
+  margin-top: calc(200% + 184px);
 }
 
 #main .mainContent .paragraphContainer {
@@ -130,12 +130,27 @@ p {
   background-color: white;
 }
 
-#main #mainTitle {
+#mainTitleContainer {
+  z-index: 1;
+  top: calc(40% - 104.5px);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+#mainTitleContainer #mainTitle {
   z-index: 1;
   top: calc(40% - 104.5px);
   left: calc(50% - 385px);
-  position: fixed;
   font-size: 124px;
+  text-align: center;
+}
+
+#mainTitleContainer .title {
+  font-family: text;
+  color: white;
+  margin: 0px 24px 0px 24px;
+  font-size: 40px;
   text-align: center;
 }
 

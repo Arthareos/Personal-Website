@@ -119,8 +119,7 @@ p {
     width: 100%;
     z-index: 2;
     .mainContent {
-        margin-top: 100%;
-        // margin-top: calc(200% + 940px);
+        margin-top: calc(200% + 184px);
         .paragraphContainer {
             width: calc(100% - 104px);
             margin: 20px;
@@ -130,12 +129,26 @@ p {
             background-color: white;
         }
     }
+}
+
+#mainTitleContainer {
+    z-index: 1;
+    top: calc(40% - 104.5px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
     #mainTitle {
         z-index: 1;
         top: calc(40% - 104.5px);
         left: calc(50% - 385px);
-        position: fixed;
         font-size: 124px;
+        text-align: center;
+    }
+    .title {
+        font-family: text;
+        color: white;
+        margin: 0px 24px 0px 24px;
+        font-size: 40px;
         text-align: center;
     }
 }
