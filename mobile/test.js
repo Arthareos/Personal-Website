@@ -13,3 +13,14 @@ function closeMenu() {
     document.getElementById("menuShader").classList.remove("menuShaderOpen");
     document.getElementById("menuShader").classList.add("menuShaderClosed");
 }
+
+$(window).scroll(function() {
+    var homeTop = $(window).scrollTop();
+    
+    var height = $(".top").height();
+    var offset = $(".top").offset().top;
+    
+    var opacity = ((height - homeTop + offset) / height) / 23;
+
+    $("#mainTitleContainer").css("opacity", opacity);
+});

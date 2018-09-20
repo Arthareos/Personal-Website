@@ -139,7 +139,6 @@ p {
 }
 
 #mainTitleContainer #mainTitle {
-  z-index: 1;
   top: calc(40% - 104.5px);
   left: calc(50% - 385px);
   font-size: 124px;
@@ -161,7 +160,7 @@ body {
   width: 100%;
   position: relative;
   margin: 0px;
-  background-image: linear-gradient(to top, #547A50, #0a9994);
+  background-image: linear-gradient(to top, #D38312, #A83279);
   background-size: 100% calc(100% + 200px);
   background-attachment: fixed;
   background-repeat: no-repeat;
