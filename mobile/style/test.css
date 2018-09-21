@@ -152,10 +152,8 @@ p {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 body {
-  z-index: 1;
   height: 100%;
   width: 100%;
-  position: relative;
   margin: 0px;
   background-image: linear-gradient(to top, #D38312, #A83279);
   background-size: 100% calc(100% + 200px);
