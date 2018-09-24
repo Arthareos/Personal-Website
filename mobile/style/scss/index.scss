@@ -22,11 +22,8 @@ h1 {
   
 h2 {
     font-family: title;
-    padding-left: 75px;
-    padding-top: 50px;
-    padding-bottom: 25px;
-    font-size: 24px;
-    margin: 0px;
+    font-size: 64px;
+    margin: 0px 0px 16px 0px;
 }
   
 p {
@@ -125,7 +122,7 @@ p {
             margin: 20px;
             margin-bottom: 20px;
             border-radius: 8px;
-            padding: 24px 32px 24px 32px;
+            padding: 40px 32px 40px 32px;
             background-color: white;
         }
     }
@@ -155,10 +152,8 @@ p {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 body {
-    z-index: 1;
     height: 100%;
     width: 100%;
-    position: relative;
     margin: 0px;
     background-image: linear-gradient(to top, #D38312, #A83279);
     background-size: 100% calc(100% + 200px);
