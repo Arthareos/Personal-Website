@@ -1,28 +1,69 @@
 <!DOCTYPE html>
-<head>
-    <title>Simone Di Fonzo</title>
-    <link rel="stylesheet" type="text/css" href="./style/index.css">
-    <link rel="icon" href="icon.png">
-</head>
-<body>
-    <div id="nav">
-        <a id="main-page" href="index.html"><img id="mainimg" height="32" width="32"></a>
-        <div id="oriz-spacer"></div>
-        <a id="projects" href="projects.html"><img id="brow" height="32" width="32"></a>
-        <div id="oriz-spacer"></div>
-        <a id="resume" href="resume.html"><img id="rad" height="32" width="32"></a>
-        <div id="oriz-spacer"></div>
-        <a id="github" href="https://github.com/Arthareos/arthareos.github.io"><img id="lib" height="32" width="32"></a>
-        <div id="oriz-spacer"></div>
-    </div>
-    <div id="main">
-        <!-- <img id="propic" src="./style/images/profilepic.png"></img> -->
-        <h1>Simone Di Fonzo</h1>
-        <p>Pending bio...</p>
-        <p>Hello! My name's Simone Di Fonzo and welcome to my website!</p>
-        <div id="main_data">
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="icon" href="icon.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./style/index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="menuButton">
+                <a class="button" onclick="openMenu()"><img src="./style/img/up.png" height="64" width="64"></a>   
         </div>
-    </div>
-    <script src="index.js"></script>
-</body>
+        <div id="menuButtonShader"></div>
+        <div id="menuShader" class="menuShaderClosed" onclick="closeMenu()"></div>
+        <div id="menu" class="menuClosed"></div>
+        </div>
+        <div id="main">
+            <div id="mainTitleContainer">
+                <h1 id="mainTitle">Simone Di Fonzo</h1>
+                <p class="title">18 yrs old Computer Science student.</p>
+                <p class="title">Swipe up to know more!</p>
+            </div>
+            <div class="mainContent">
+                <div class="paragraphContainer top">
+                    <h2>About Me..</h2>
+                    <p>
+                        Temporary bio...
+                    </p>
+                </div>
+                <div class="paragraphContainer">
+                    <h2>Projects</h2>
+                    <p>
+                        As far I can remember, I was fascinated with all that electronics and computers
+                        mean. I was a curious person from an early age. I used to dismantle and dissect 
+                        a product and often I wouldn't stop until I knew what would make the device tick. 
+                        My first “real” taste of computers came when my mother gifted me a laptop for my 
+                        4th birthday. It was an overkill laptop for a kid of my age and the poor thing 
+                        got hammered. On good old windows XP, I used to verify the function of every 
+                        button, switch and checkbox to the point that every couple of weeks I needed 
+                        to send my laptop to a computer service because of his OS being so dysfunctional, 
+                        most of the times, couldn’t even boot properly in the OS. In conclusion, that 
+                        was the beginning of my “great journey” into the world of software.
+                    </p>
+                </div>
+                <div class="paragraphContainer">
+                    <h2>Resume</h2>
+                    <p>
+                        I like games a lot and I enjoy analysing all the little details, especially in 
+                        regards to UI/UX. Two years ago, I started making my own projects. That might 
+                        have been a little late, bearing in my mind that I’ve been interested in 
+                        programming all my life. I started creating small web design concepts which I 
+                        further continued to improve and experiment with. 
+                    </p>
+                </div>
+                <div class="paragraphContainer">
+                    <h2>GitHub</h2>
+                    <p>
+                        One of my hobby is to code. I started in with web design because it’s the most 
+                        accessible way to make an UI concept. Using the skills learnt, I created my own 
+                        website: simonedifonzo.com. Project that I started at the beginning of October this 
+                        year. On the website, there are some of my past projects in which I used to 
+                        experiment with different design ideas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
