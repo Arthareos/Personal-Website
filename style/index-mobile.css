@@ -131,6 +131,7 @@ p {
 #mainTitleContainer {
   z-index: 1;
   top: calc(40% - 104.5px);
+  margin: calc(50% - 175px);
   position: fixed;
 }
 
