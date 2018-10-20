@@ -47,50 +47,17 @@ p {
 }
 
 #menu {
-  height: 800px;
-  width: 100%;
-  z-index: 98;
-  position: fixed;
-  background-color: white;
-  border-radius: 32px 32px 0px 0px;
-  transition: 0.5s;
-  transition-timing-function: ease-in-out;
+  visibility: hidden;
 }
 
 #menuShader {
-  height: calc(100% + 100px);
-  width: calc(100% + 100px);
-  z-index: 97;
-  position: fixed;
-  top: -50px;
-  left: -50px;
-  background-color: black;
-  filter: blur(5px);
-  background-size: cover;
-  opacity: 0.50;
-}
-
-.menuClosed {
-  top: 100%;
   visibility: hidden;
-}
-
-.menuOpen {
-  top: calc(100% - 800px);
-  visibility: visible;
-}
-
-.menuShaderClosed {
-  visibility: hidden;
-}
-
-.menuShaderOpen {
-  visibility: visible;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #main {
   z-index: 2;
+  position: static;
 }
 
 #main .mainContent {
@@ -98,18 +65,21 @@ p {
   min-width: 400px;
   margin: auto;
   margin-top: 64px;
-}
-
-#main .mainContent .paragraphContainer {
-  width: calc(100% - 80px);
-  margin: 0px 16px 8px 16px;
+  margin-bottom: 32px;
   border-radius: 8px;
-  padding: 16px 24px 16px 24px;
+  padding: 24px;
   background-color: white;
 }
 
+#main .mainContent .paragraphContainer {
+  margin: 0px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  padding: 16px 24px 16px 24px;
+  background-color: lightgray;
+}
+
 #mainTitleContainer {
-  z-index: 1;
   margin-top: 64px;
   width: 100%;
 }
@@ -130,7 +100,7 @@ p {
 body {
   margin: 0px;
   background-image: linear-gradient(to top, #D38312, #A83279);
-  background-size: 100% calc(100% + 200px);
+  background-size: 100% calc(100% + 50px);
   background-attachment: fixed;
   background-repeat: no-repeat;
 }

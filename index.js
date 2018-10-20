@@ -15,12 +15,19 @@ function closeMenu() {
 }
 
 $(window).scroll(function() {
-    var homeTop = $(window).scrollTop();
+    if (window.innerWidth <= 450) 
+    {
+        var homeTop = $(window).scrollTop();
     
-    var height = $(".top").height();
-    var offset = $(".top").offset().top;
+        var height = $(".top").height();
+        var offset = $(".top").offset().top;
     
-    var opacity = ((height - homeTop + offset) / height) / 15;
+        var opacity = ((height - homeTop + offset) / height) / 15;
 
-    $("#mainTitleContainer").css("opacity", opacity);
+        $("#mainTitleContainer").css("opacity", opacity);
+    }
+    else
+    {
+        $("#mainTitleContainer").css("opacity", 1);
+    }
 });
