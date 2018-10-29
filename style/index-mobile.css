@@ -128,6 +128,10 @@ p {
   background-color: white;
 }
 
+#main .mainContent .bottom {
+  margin-bottom: 16px;
+}
+
 #mainTitleContainer {
   z-index: 1;
   top: calc(40% - 104.5px);

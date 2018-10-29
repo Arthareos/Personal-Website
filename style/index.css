@@ -79,6 +79,10 @@ p {
   background-color: lightgray;
 }
 
+#main .mainContent .bottom {
+  margin: 0px;
+}
+
 #mainTitleContainer {
   margin-top: 64px;
   width: 100%;
