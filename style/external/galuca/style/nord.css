@@ -1,0 +1,145 @@
+@font-face {
+  font-family: title;
+  src: url("./fonts/titles.ttf");
+}
+
+@font-face {
+  font-family: text;
+  src: url("./fonts/text.ttf");
+}
+
+@font-face {
+  font-family: subtext;
+  src: url("./fonts/subtext.otf");
+}
+
+h1 {
+  font-family: title;
+  font-size: 32px;
+  margin: 0px;
+}
+
+h2 {
+  padding: 0px 0px 16px 48px;
+  margin: 0px;
+  font-size: 24px;
+  font-family: title;
+}
+
+p {
+  font-family: text;
+  margin: 0px;
+  padding: 0px 48px 8px 48px;
+  font-size: 20px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#nav {
+  height: 100%;
+  width: 0px;
+  background-color: black;
+  opacity: 0.5;
+  overflow-x: hidden;
+  float: left;
+  z-index: -1;
+  position: fixed;
+}
+
+#nav .nav-head {
+  width: 160px;
+  height: 1px;
+  margin-top: 75px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+#nav .nav {
+  width: 160px;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+#nav .nav-link {
+  font-family: title;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+#nav .nav-link-imp {
+  font-family: title;
+  color: #D4AF37;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#header {
+  background-color: white;
+  max-width: 900px;
+  min-width: 400px;
+  margin: auto;
+}
+
+#header h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 24px 32px 24px 32px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#main {
+  height: calc(100% - 200px);
+  width: calc(100% - 164px);
+  z-index: 2;
+  position: absolute;
+  box-shadow: -2px 0px 12px 1px rgba(0, 0, 0, 0.6);
+  padding-left: 82px;
+  padding-right: 82px;
+  padding-top: 200px;
+  background-image: url("./img/nord.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#main .content {
+  margin: auto;
+  margin-top: 16px;
+  max-width: 900px;
+  min-width: 400px;
+  background-color: white;
+  padding: 48px 0px 40px 0px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#icon {
+  margin-top: 21.5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  z-index: 99;
+  position: fixed;
+}
+
+body {
+  z-index: 1;
+  margin: 0px;
+  background-image: linear-gradient(#3a3a3a, #0a0504 85%);
+  background-repeat: no-repeat;
+}
+
+html {
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  background-color: black;
+}
