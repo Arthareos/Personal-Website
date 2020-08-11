@@ -96,7 +96,7 @@ p {
 }
 
 #mainTitleContainer #mainTitle {
-  left: calc(50% - 385px);
+  left: calc(50vw - 385px);
   font-size: 72px;
   text-align: center;
 }

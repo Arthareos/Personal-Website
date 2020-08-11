@@ -60,6 +60,7 @@ p {
 #main {
     z-index: 2;
     position: static;
+
     .mainContent {
         max-width: 800px;
         min-width: 400px;
@@ -94,11 +95,13 @@ p {
 #mainTitleContainer {
     margin-top: 64px;
     width: 100%;
+
     #mainTitle {
-        left: calc(50% - 385px);
+        left: calc(50vw - 385px);
         font-size: 72px;
         text-align: center;
     }
+
     .title {
         visibility: hidden;
         overflow: hidden;
