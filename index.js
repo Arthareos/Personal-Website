@@ -1,5 +1,3 @@
-let open = 0;
-
 function openMenu() {
     document.getElementById("menu").classList.remove("menuClosed");
     document.getElementById("menu").classList.add("menuOpen");
@@ -15,8 +13,8 @@ function closeMenu() {
 }
 
 $(window).scroll(function() {
-    if (window.innerWidth <= 450) 
-    {
+    if (window.innerWidth <= 600)  {
+
         var homeTop = $(window).scrollTop();
     
         var height = $(".top").height();

@@ -112,36 +112,16 @@ p {
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-#main {
-  z-index: 2;
-}
-
-#main .mainContent {
-  margin-top: 200%;
-}
-
-#main .mainContent .paragraphContainer {
-  width: calc(100% - 80px);
-  margin: 8px 16px 8px 16px;
-  border-radius: 4px;
-  padding: 16px 24px 16px 24px;
-  background-color: white;
-}
-
-#main .mainContent .bottom {
-  margin-bottom: 16px;
-}
-
 #mainTitleContainer {
   z-index: 1;
-  top: calc(40% - 104.5px);
-  margin: calc(50% - 175px);
+  margin: calc(50vw - 175px);
+  top: calc(50vh - 104.5px);
   position: fixed;
 }
 
 #mainTitleContainer #mainTitle {
-  top: calc(40% - 104.5px);
   left: calc(50% - 385px);
+  top: calc(50% - 104.5px);
   font-size: 56px;
   text-align: center;
 }
@@ -157,11 +137,31 @@ p {
   text-align: center;
 }
 
+#main {
+  z-index: 2;
+}
+
+#main .mainContent .paragraphContainer {
+  width: calc(100vw - 80px);
+  margin: 8px 16px 8px 16px;
+  border-radius: 4px;
+  padding: 16px 24px 16px 24px;
+  background-color: white;
+}
+
+#main .mainContent .top {
+  margin-top: calc(100vh - 100px);
+}
+
+#main .mainContent .bottom {
+  margin-bottom: 16px;
+}
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 body {
   margin: 0px;
   background-image: linear-gradient(to top, #D38312, #A83279);
-  background-size: 100% calc(100% + 200px);
+  background-size: 100% 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
