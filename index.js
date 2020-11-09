@@ -12,20 +12,33 @@ function closeMenu() {
     document.getElementById("menuShader").classList.add("menuShaderClosed");
 }
 
+// $(window).scroll(function() {
+//     if (window.innerWidth <= 600)  {
+//         var homeTop = $(window).scrollTop();
+    
+//         var height = $(".mainContent").height();
+//         var offset = $(".mainContent").offset().top;
+    
+//         var opacity = ((height - homeTop + offset) / height) / 15 * 4;
+
+//         $("#mainTitleContainer").css("opacity", opacity);
+//     }
+//     else {
+//         $("#mainTitleContainer").css("opacity", 1);
+//     }
+// });
+
 $(window).scroll(function() {
     if (window.innerWidth <= 600)  {
-
-        var homeTop = $(window).scrollTop();
+        var scrollQuantity = $(window).scrollTop();
+        var contentPosition = $(".mainContent").top;
+        var titlePosition = $(".mainTitleContainer").top;
     
-        var height = $(".top").height();
-        var offset = $(".top").offset().top;
-    
-        var opacity = ((height - homeTop + offset) / height) / 15;
+        var opacity = ();
 
         $("#mainTitleContainer").css("opacity", opacity);
     }
-    else
-    {
+    else {
         $("#mainTitleContainer").css("opacity", 1);
     }
 });
